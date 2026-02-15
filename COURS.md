@@ -14,6 +14,15 @@
 
 ---
 
+## Introduction
+
+Bien que l'écosystème `PHP contemporain` soit largement dominé par la **Programmation Orientée Objet** (`POO`) et les frameworks complexes (**Symfony, Laravel, etc**), l'apprentissage initial du **paradigme procédural** ([lien](https://fr.wikipedia.org/wiki/Programmation_proc%C3%A9durale)) demeure **une étape pédagogique incontournable**. 
+
+Il permet aux apprenants de comprendre le flux d'exécution séquentiel, la gestion d'état et la logique brute sans la surcharge cognitive liée à l'abstraction des classes et des objets. L'unique exception à cette règle procédurale sera l'utilisation de l'extension `PDO` (PHP Data Objects) et la gestion des Exceptions, qui seront introduites comme des standards industriels indispensables pour garantir la sécurité et la portabilité des interactions avec les bases de données.
+
+---
+
+
 ## Table des matières
 
 1. [Présentation de PHP](#1---présentation-de-php)
@@ -28,9 +37,9 @@
 
 Dans cette architecture, le serveur **interprète** le code PHP des pages web demandées et génère du code (HTML, CSS, XML, JSON, JavaScript…) et/ou des données (JPEG, GIF, PNG, SVG, PDF…) pouvant être interprétés et rendus par un **navigateur web**.
 
-PHP a été conçu pour permettre la création d'**applications dynamiques**, le plus souvent développées pour le Web. Étant un langage de type **script**, il n'est pas obligatoirement compilé pour être exécuté. Il est donc interprété à chaque appel de page par le serveur (sauf pour la compilation à la volée JIT ou par gestion des caches).
+`PHP` a été conçu pour permettre la création d'**applications dynamiques**, le plus souvent développées pour le Web. Étant un langage de type **script**, il n'est pas obligatoirement compilé pour être exécuté. Il est donc interprété à chaque appel de page par le serveur (sauf pour la compilation à la volée `JIT` ou par gestion des caches).
 
-PHP est le plus souvent couplé à un serveur **Apache**, bien qu'il puisse être installé sur la plupart des serveurs HTTP tels que **IIS** (Microsoft) ou **Nginx**.
+`PHP` est le plus souvent couplé à un serveur **Apache**, bien qu'il puisse être installé sur la plupart des serveurs HTTP tels que **IIS** (Microsoft), **Nginx** ou **Caddy** (langage `GO` pour une vitesse d'exécution accrue).
 
 Ce couplage permet de récupérer des informations issues d'une **base de données**, d'un système de fichiers, ou plus simplement des données envoyées par le navigateur afin d'être interprétées ou stockées pour une utilisation ultérieure.
 
@@ -41,11 +50,14 @@ C'est un langage qui peut, comme au début de ce cours, être **peu typé** et s
 - **Libre et gratuit** : PHP est open source
 - **Multi-plateforme** : fonctionne sur Linux, Windows et macOS
 - **Simple d'installation** et d'utilisation pour un débutant
+- **Améliorations constantes** : nouvelles fonctionnalités et optimisations régulières ([lien](https://endoflife.date/php))
 - **Grande communauté** : documentation abondante, forums actifs
-- **Utilisé massivement** : WordPress, Laravel, Symfony, Drupal, etc.
+- **Utilisé massivement** : WordPress, Magento, Laravel, Symfony, Drupal, Joomla, etc.
 - Nécessite une **connaissance aiguë des problèmes de sécurité**
 
 📖 **Documentation officielle** : [https://www.php.net/manual/fr/](https://www.php.net/manual/fr/)
+
+📖 **Documentation W3C** : [PHP Tutorial](https://www.w3schools.com/php/default.asp)
 
 ---
 
