@@ -1,4 +1,4 @@
 <?php
-// Fonction native qui affiche las configuration 
+// Fonction native qui affiche la configuration 
 // de notre serveur
 phpinfo();
