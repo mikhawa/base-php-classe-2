@@ -8,15 +8,15 @@ $monTabAssoc = [
     "caracteristique" => "egocentrique"
 ];
 echo $monTabAssoc["nom"];
-echo "<br>";
+echo "<hr>";
 echo $monTabAssoc["prenom"];
-echo "<br>";
+echo "<hr>";
 echo $monTabAssoc["age"];
-echo "<br>";
+echo "<hr>";
 echo $monTabAssoc["ville"];
-echo "<br>";
+echo "<hr>";
 echo $monTabAssoc["dateDeNaissance"];
-echo "<br>";
+echo "<hr>";
 echo $monTabAssoc["caracteristique"];
-echo "<br>";
+echo "<hr>";
 ?>
